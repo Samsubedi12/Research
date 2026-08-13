@@ -21,7 +21,7 @@
 - Cyber Threats
 - Cyber Attacks
 - Information Security
-
+- cyber
 ## Specific Search Keywords
 
 - AI-based threat detection

@@ -178,6 +178,7 @@ AI can help defenders:
 - Identify vulnerabilities
 - Analyse large amounts of security data
 - Automate security responses
+- Early Detection of Attacks
 
 However, attackers can also use AI to:
 
@@ -186,6 +187,7 @@ However, attackers can also use AI to:
 - Evade detection
 - Discover vulnerabilities
 - Scale malicious activities
+- Find loophole in used architecture
 
 Therefore, the effects of AI on cybersecurity are not exclusively positive.
 
@@ -232,6 +234,7 @@ Other studies focus on specific ML algorithms applied to particular cybersecurit
 - Intrusion detection
 - Malware detection
 - Zero-day attack detection
+- Technological limit detection
 
 These approaches can measure performance using metrics such as:
 
@@ -250,7 +253,7 @@ These metrics can help determine whether AI-based systems perform better than tr
 
 # 6. Research Gaps and Areas Requiring Further Research
 
-Although the literature shows positive results, several significant research gaps remain.
+Although the literature shows positive results, several significant research gaps remains.
 
 ## 6.1 Lack of Standardised Datasets
 
@@ -258,7 +261,7 @@ Different studies often use different datasets, making it difficult to directly 
 
 For example, a model that achieves 99% accuracy on one dataset may not achieve the same performance when exposed to real-world attacks.
 
-Therefore, standardised and realistic datasets are required for meaningful comparisons.
+Therefore, standardised and realistic datasets are required for meaningful comparisons. Also, the more the data the better will be the quality and helps to increase reliability.
 
 ---
 
@@ -510,6 +513,8 @@ These include:
 - Model bias
 - Difficulty identifying changing threats
 - Use of AI by attackers as well as defenders
+- cost and implementation challenges.
+
 
 The literature also indicates that although the cybersecurity sector is increasingly moving toward AI-based and automated approaches, many organisations have not yet implemented these technologies extensively.
 
@@ -531,6 +536,8 @@ The analysis will:
 - Compare the methodologies used in the selected studies.
 - Evaluate the strengths and weaknesses of systematic reviews, surveys and experimental research.
 - Assess the reliability and applicability of the reported findings.
+- Find the future work that needs to be done.
+- quality and size of datasets used.
 
 Particular attention will be given to whether the evidence demonstrates measurable improvements in:
 

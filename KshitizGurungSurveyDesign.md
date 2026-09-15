@@ -1,4 +1,4 @@
-Survey Design
+Survey Design for research
 
 Research Topic
 
@@ -110,4 +110,4 @@ Open-ended response
 
 5. Ethical Considerations
 
-Before starting the survey, participants will receive a short information statement explaining the purpose of the research and that participation is voluntary. No unnecessary personally identifiable information will be requested. Responses will be kept confidential and reported in summarized form. Participants may stop before submitting the survey, and the questions will avoid harmful or unnecessarily sensitive content. Survey data will be stored securely, used only for the academic research project, and accessed only by the research group where appropriate.
+Before starting the survey, participants will receive a short information statement explaining the purpose of the research and that participation is voluntary. No unnecessary personally identifiable information will be requested. Responses will be kept confidential and reported in summarized form. Participants may stop before submitting the survey, and the questions will avoid harmful or unnecessarily sensitive content. Survey data will be stored securely, used only for the academic research project, and accessed only by the research group where appropriate .

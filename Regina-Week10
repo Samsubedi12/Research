@@ -1,0 +1,289 @@
+# CLASS PARTICIPATION COVERSHEET
+
+| Field | Detail |
+| --- | --- |
+| Unit of Study | MIT653 Research Methods |
+| Assignment Title | Class Participation – Week 10 |
+| Semester and Year | Trimester 2, 2026 |
+| Lecturer Name | Dr. Sudath Heiyanthuduwage |
+
+## DECLARATION
+
+The work contained in this assignment is my own work and has not been copied from other sources or been previously submitted, unless otherwise specifically acknowledged.
+
+I understand that failure to comply can lead to severe penalties.
+
+| Field | Detail |
+| --- | --- |
+| Student Identification | S20250116 |
+| Student Name | Regina Basnet |
+| Date Submitted | 29 / 09 / 2026 |
+| Signed | Regina Basnet |
+| Date | 29 / 09 / 2026 |
+
+---
+
+# Human Research Ethics Approval Application
+
+**Individual contribution by:** Regina Basnet (S20250116)  
+**Group members:** Regina Basnet, Samrat Subedi, Kaman Dugu Shrestha, Kshitiz Gurung,   
+**GitHub repository:** https://github.com/Samsubedi12/Research  
+**Related proposal:** Evaluating Explainable AI Support for Security Analyst Decision-Making in Alert Triage
+
+> **My contribution note:** I completed this ethics application content for Week 10 Class Participation, aligned with the group research proposal methodology I also framed (mixed-methods survey + AI-only vs AI+XAI triage experiment). Other members may upload their own ethics contribution files separately, as required by the unit.
+> > **Regina Basnet's contribution:** I expanded the Ethical Considerations section by developing the participant distress and risk-management procedure and strengthening privacy and data-minimisation safeguards for the proposed study.
+
+---
+
+## 1. Project Information
+
+| Field | Detail |
+| --- | --- |
+| **Project Title** | Evaluating Explainable AI Support for Security Analyst Decision-Making in Alert Triage |
+| **Principal Investigator** | Regina Basnet |
+| **Position** | Student (MIT653 Research Methods) |
+| **Department/School** | Sydney Institute of Higher Education (SIHE) |
+| **Email Address** | [S20250116@sihe.edu.au] |
+| **Student ID** | S20250116 |
+| **Project Supervisor** | Dr. Sudath Heiyanthuduwage |
+| **Supervisor Position** | Lecturer |
+| **Supervisor Department/School** | Sydney Institute of Higher Education |
+| **Supervisor Email** | Sudath.Heiyanthuduwage@sydneyinstitute.edu.au |
+
+---
+
+## 2. Project Overview
+
+### Research Objectives
+
+1. Investigate whether Explainable AI (XAI) support improves cybersecurity analysts’ **trust**, **triage accuracy**, and **decision time** when assessing AI-generated security alerts.  
+2. Collect preliminary stakeholder views (IT/cybersecurity students and early-career practitioners) on AI alerts, alert fatigue, and preferred explanation types.  
+3. Propose and ethically prepare a controlled comparison of **AI-only** versus **AI+XAI** alert presentations.  
+4. Produce design recommendations for hybrid human-in-the-loop SOC workflows aligned with NIST AI Risk Management Framework principles.
+
+### Research Questions / Hypotheses
+
+**Research questions**
+
+- **RQ1:** What do IT/cybersecurity stakeholders report about current use of AI alerts, trust, alert fatigue and preferred explanation types?  
+- **RQ2:** Does providing XAI explanations with AI alerts improve triage accuracy compared with AI alerts without explanations?  
+- **RQ3:** How does XAI support affect decision time and self-reported trust/confidence during triage?  
+- **RQ4:** What design recommendations follow for hybrid human-in-the-loop SOC workflows under NIST AI RMF principles?
+
+**Hypotheses**
+
+- **H1:** Mean trust/confidence scores will be higher in the AI+XAI condition than in the AI-only condition.  
+- **H2:** Triage decision accuracy will be higher in the AI+XAI condition than in the AI-only condition.  
+- **H3 (exploratory):** The effect of XAI on decision time will depend on experience.
+
+---
+
+## 3. Methodology
+
+### Research Design
+
+The study uses a **sequential mixed-methods** design:
+
+| Phase | Design | Description |
+| --- | --- | --- |
+| Phase 1 | Quantitative + qualitative survey | Online preliminary survey (pilot completed, n = 42) on trust, fatigue, explanation preferences |
+| Phase 2 | Quantitative controlled experiment | Between-subjects: Condition A (AI-only alerts) vs Condition B (AI+XAI alerts) |
+| Phase 3 | Optional qualitative interviews | Short interviews (n ≈ 5) to explain trust/distrust reasons |
+
+Overall paradigm: **pragmatic** (measurable performance + perception/insight).
+
+### Participant Recruitment
+
+Participants will be recruited using **purposive and convenience sampling** through:
+
+- university / SIHE student communication channels  
+- class groups and eligible student communities  
+- voluntary sharing with people who have IT, networking, cybersecurity or SOC-related study/practice interest  
+
+Recruitment messages will include a short information statement (purpose, time required, voluntary nature, anonymity). No pressure or coercion will be used.
+
+**Eligibility:** 18 years or older; relevant interest or background in IT/cybersecurity preferred.
+
+### Sample Size
+
+| Phase | Planned / achieved sample |
+| --- | --- |
+| Phase 1 survey | Pilot completed **n = 42**; target range approximately 40–100 for broader collection if continued |
+| Phase 2 experiment | Approximately **40–60** participants randomly assigned to Condition A or B |
+| Phase 3 interviews | Approximately **5** volunteers from consenting participants |
+
+### Data Collection Methods
+
+1. **Online questionnaire** (Google Forms / Microsoft Forms): demographics, Likert items, explanation preference, one open-ended comment, consent confirmation.  
+2. **Controlled triage task** (simulated alerts only): participants review 8–10 alerts under AI-only or AI+XAI presentation; decisions and confidence recorded.  
+3. **Optional brief interview:** open questions about trust in AI alerts (no recording of sensitive organisational secrets).
+
+**Important:** No live victim data, no real network compromise, and no actionable exploit instructions will be used.
+
+### Data Analysis Plan
+
+- Survey: frequencies, percentages, means/SD, preference rankings, cross-tabs (e.g., experience × trust), thematic coding of open responses.  
+- Experiment: descriptive statistics; independent-samples t-tests or Mann–Whitney U for H1–H2; ANOVA/regression for H3; effect sizes (Cohen’s d); thematic analysis of comments.  
+- Software: Excel and/or R.
+
+---
+
+## 4. Ethical Considerations
+
+### 4.1 Voluntary and Informed Participation
+
+**How will you provide clear, accessible information to participants?**  
+Before starting, participants will see a plain-language information statement covering: project title and purpose; what they will do; approximate time (survey ~8–10 minutes; experiment session separately explained); voluntary participation; anonymity/confidentiality; how data will be used (academic MIT653 purposes only); and contact details for the student researcher / supervisor if needed.
+
+**How will you obtain and document informed consent?**  
+Consent will be obtained electronically via a required consent item (e.g., “I have read the information and agree to take part anonymously — Yes”) before survey/experiment items. Interview consent will be confirmed again before any optional interview begins. Consent wording is also included in the proposal appendix.
+
+**How will you ensure participants can withdraw freely at any stage?**  
+Participants may close the form or stop the session at any time without penalty. For anonymous online survey responses already submitted, withdrawal of an individual record may not be possible if no identifier exists; this will be stated in the information sheet. For the experiment/interviews, participants may withdraw before or during participation without negative consequences.
+
+### 4.2 Minimising Harm and Discomfort
+
+**Potential risks**
+
+| Risk type | Assessment |
+| --- | --- |
+| Psychological | Low — possible mild frustration with alerts or reflection on workplace alert fatigue |
+| Physical | None expected |
+| Legal | Low — simulated content only; no illegal activity requested |
+| Cultural / social | Low — questions avoid sensitive personal identity topics beyond role/experience |
+| Dual-use / security | Managed — no real exploits, no live systems, no confidential organisational logs |
+
+**Steps to reduce or manage risks**
+
+- Use **simulated** security alerts only.  
+- Keep participation short and voluntary.  
+- Allow participants to skip uncomfortable open questions.  
+- Exclude actionable attack instructions.  
+- Debrief after the experiment explaining that alerts were simulated.  
+- Classify overall risk level as **Low**.
+
+### 4.3 Protecting Confidentiality and Privacy
+**Contribution by: Regina Basnet**
+
+Although the overall research risk is considered low, a clear procedure will be followed if a participant experiences stress, discomfort or concern during the survey, experiment or optional interview.
+
+If a participant shows or reports discomfort:
+
+1. The research activity will be paused or stopped immediately.
+2. The participant will be reminded that participation is voluntary and that they may withdraw without penalty.
+3. The participant will not be required to explain or justify their decision to stop.
+4. No further research activity will continue unless the participant freely chooses to proceed.
+5. The participant will receive an appropriate debrief explaining the purpose of the simulated cybersecurity scenarios.
+6. Where appropriate, relevant support or contact information will be provided.
+7. Any significant or unexpected ethical issue will be documented and reported to the project supervisor, Dr. Sudath Heiyanthuduwage.
+
+To further minimise psychological discomfort, participants will not be individually ranked or publicly compared based on their cybersecurity performance. Results will be analysed and reported in aggregate or de-identified form.
+
+This procedure ensures that participant wellbeing takes priority over completion of the research activity.
+
+**How will you store, protect, and limit access to personal data?**  
+Data will be stored on password-protected accounts (institutional / authorised student accounts). Access limited to the research group members for academic analysis only. No unnecessary personal identifiers (full legal name, student number, phone, employer secrets) will be requested for analysis.
+
+**Will the study be anonymous or de-identified?**  
+The online survey is designed to be **anonymous** (no names required for analysis). Experiment/interview notes will be **de-identified** (Participant codes such as P01) if any contact is needed for scheduling. Results will be reported in aggregate form.
+
+### 4.4 Ensuring Fair and Respectful Treatment
+#### Privacy and Data Minimisation
+
+**Contribution by: Regina Basnet**
+
+The research team will apply a data-minimisation approach by collecting only information necessary to answer the research questions.
+
+The anonymous online survey will not require participants' names for analysis. Where participants need to be distinguished during experimental or interview activities, de-identified participant codes such as P01, P02 and P03 will be used instead of names.
+
+Demographic information will be limited to research-relevant variables such as participant role and level of IT/cybersecurity experience. Participants will not be asked to disclose passwords, confidential workplace information, private organisational security incidents or other unnecessary sensitive information.
+
+When qualitative comments are reported, potentially identifying details will be removed or generalised before inclusion in the final research report.
+
+These measures reduce the amount of personal information collected and minimise the possibility of identifying individual participants.
+
+**Inclusivity, fairness, and cultural sensitivity**  
+Recruitment will be open to eligible adult volunteers with relevant interest; wording will be respectful and non-discriminatory. No participant will be excluded on the basis of gender, ethnicity, or cultural background.
+
+**Preventing bias or unequal treatment**  
+All participants in the same phase receive the same information and procedures. Experiment assignment to Condition A/B will be random. No preferential grading or academic benefit beyond voluntary learning experience is offered for participation (unless a small voucher budget is used equally under the approved proposal budget).
+
+### 4.5 Honesty with Professional Colleagues
+
+**Transparent reporting**  
+Findings will be reported honestly, including limitations (convenience sample; simulated alerts; proposal-stage experiment not yet fully executed). Results will not be fabricated, selectively deleted, or misrepresented.
+
+**Acknowledging contributions**  
+Group members, supervisor (Dr. Sudath Heiyanthuduwage), and participants (in aggregate) will be acknowledged. Sources will be cited. AI assistance for language/formatting, if used, will be declared according to SIHE academic integrity / AI rules.
+
+---
+
+## 5. Data Management
+
+### Data Storage
+
+| Item | Plan |
+| --- | --- |
+| Location | Password-protected institutional/student cloud account and/or encrypted local folder used only for the project |
+| Retention | **12 months** after unit completion (or as required by SIHE policy) |
+| Form | Survey exports (CSV), experiment logs, de-identified notes |
+
+### Data Security
+
+- Strong account passwords; no sharing of login credentials outside the authorised group.  
+- Access limited to Regina Basnet and named group members for analysis; supervisor access if requested for assessment.  
+- No posting of raw identifiable response files publicly on GitHub.  
+- Public GitHub may host **this ethics application text** and methodology descriptions only—not raw participant datasets.
+
+### Data Disposal
+
+After the retention period, electronic files will be permanently deleted from storage accounts and local devices (including recycle bins where practicable). Printed consent summaries, if any, will be securely destroyed (shredding).
+
+---
+
+## 6. Declarations
+
+### Principal Investigator’s Declaration
+
+I confirm that I have read and understood the ethical guidelines provided by Sydney Institute of Higher Education. I agree to conduct this research in accordance with these guidelines and the ethical principles outlined in this application.
+
+| Field | Detail |
+| --- | --- |
+| Name | Regina Basnet |
+| Student ID | S20250116 |
+| Signature | Regina Basnet |
+| Date | 29 / 09 / 2026 |
+
+### Supervisor’s Declaration
+
+I confirm that I have reviewed this ethics application and that the proposed research complies with the ethical standards of Sydney Institute of Higher Education / Sydney Polytechnic Institute.
+
+| Field | Detail |
+| --- | --- |
+| Name | Dr. Sudath Heiyanthuduwage |
+| Signature | __________________________ |
+| Date | __________________________ |
+
+*(Supervisor signature to be completed by the lecturer if/when required.)*
+
+---
+
+## Appendix — Consent statement used with participants (summary)
+
+**Research Title:** Evaluating Explainable AI Support for Security Analyst Decision-Making in Alert Triage
+
+I understand the purpose of this research study.  
+I understand that participation is voluntary.  
+I understand that my responses will remain anonymous/confidential for analysis.  
+I understand that I may withdraw before or during participation without penalty.  
+I agree to participate for academic research purposes.
+
+---
+
+## Moodle / GitHub submission note
+
+1. This file is **Regina's Week 10 individual ethics contribution**.  
+2. Upload/push this file to the group GitHub repository: https://github.com/Samsubedi12/Research  
+3. Submit a **screenshot** of this contribution on GitHub to Moodle → Week 10.  
+
+**Suggested GitHub filename:** `Regina_Week10_Ethics_Application.md`
